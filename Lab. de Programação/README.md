@@ -1,1 +1,1 @@
-# Explorer-01
+# Laboratório de programação
