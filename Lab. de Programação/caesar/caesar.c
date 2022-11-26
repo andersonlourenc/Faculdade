@@ -15,32 +15,32 @@ char girar(char p, int k);
 
 int main(int argc, string argv[])
 {
-    int k, length;
+    int k, tamanho;
     string plaintext;
-    if (argc != 2 || !only_digits(argv[1])) {
+    if (argc != 2 || !apenasDigitos(argv[1])) {
         printf("Usage: ./caesar key\n");
         return 1;
     }
     k = atoi(argv[1]);
     plaintext = get_string("plaintext: ");
-    length = strlen(plaintext);
-    char ciphertext[length + 1];
-    for (int i = 0; i< length; i++)
+    tamanho = strlen(plaintext);
+    char ciphertext[tamanho + 1];
+    for (int i = 0; i< tamanho; i++)
     {
-        ciphertext[i] = rotate(plaintext[i], k);
+        ciphertext[i] = girar(plaintext[i], k);
     }
-    ciphertext[length] = '\0';
+    ciphertext[tamanho] = '\0';
     printf("ciphertext: %s\n", ciphertext);
     return 0;
 }
 
 bool apenasDigitos(string text)
 {
-    int length;
+    int tamanho;
 
-    length = strlen(text);
+    tamanho = strlen(text);
 
-    for (int i = 0; i < length; i++){
+    for (int i = 0; i < tamanho; i++){
         if (!isdigit(text[i])) {
             return false;
         }
