@@ -1,3 +1,9 @@
+/*
+Aluno: Anderson Souza Lourenço
+Matrícula: 20212045050347
+https://github.com/andersonlourenc/Faculdade/blob/14a0ffe04ff5d1672fed1f9ce1802beecca05684/Lab.%20de%20Programa%C3%A7%C3%A3o/Mario%20Less/marioless.c
+
+*/ 
 #include <stdio.h>
 #include <cs50.h>
 
