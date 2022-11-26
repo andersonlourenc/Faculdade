@@ -47,7 +47,7 @@ int main(int argc, string argv[])
         }
     }
     ciphertext[tamanho] = '\0';
-    printf("cifrado: %s\n", ciphertext);
+    printf("ciphertext: %s\n", ciphertext);
 }
 
 bool check_char(string key)
