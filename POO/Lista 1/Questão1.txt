@@ -1,0 +1,8 @@
+Questão 1:
+a) Uma classe define a estrutura e o comportamento de um determinado grupo de objetos que possuem propriedades em comum
+b)Objetos são entidades do mundo real
+Podem ser visíveis/palpáveis ou abstratos
+Os objetos possuem propriedades que permitem diferenciá-lo dos demais, como altura, tamanho e forma
+c)Referencia serve para o programador localizar um objeto que foi instanciado,
+serve para achar o endereço de memória de um objeto.
+d)Chama-se instância de uma classe, um objeto cujo comportamento e estado são definidos pela classe.

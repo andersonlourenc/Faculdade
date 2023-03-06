@@ -1,0 +1,14 @@
+1) Um curto-circuito em operadores lógicos em Java é quando ocorre uma saida da avaliação de uma
+expressão lógica antes de ela ser completada, ele acontece porque o resultado é claro antes mesmo da
+avaliação completa da expressão, e o resultado é retornado.
+
+2) Com o sinal de incremento ou decremento depois da variável, o valor da variável e alterado depois que
+o progama usou o valor atual da variável, já com o sinal antes, ele incrementa antes do valor atual da
+variável ser utilizado pelo programa
+
+3)Resposta em AtividadesOperadoresESintaxesParte2.java
+
+4) String depois que é definido, a classe a qual a ela pertence não possui métodos que permitem a sua
+alteração, isso é feito por vários motivos dentro eles pro uma questão de proteção, para proteger algum
+programa que caso tenha o nome do arquivo mudado ele n trave completamente.
+

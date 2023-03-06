@@ -1,0 +1,25 @@
+1)
+a) Um tipo primitivo é um tipo básico de dado que não é um objeto.
+
+b)A estrutura de dados primitiva é um tipo de estrutura de dados que armazena os dados de apenas um tipo.
+Já objeto é um tipo de estrutura de dados que pode armazenar os dados de mais de um tipo.
+
+c) O tipo int é um primitivo que representa apenas o valor. O tipo Integer é uma classe wrapper,
+é alocado no heap e você pode chamar métodos nele
+
+d)
+
+2)
+a) Os tipos de dados na linguagem java são 8: byte, short, int, long, char, float, double, boolean;
+b) O tipo de dados que elas armazenam, algumas armazenam um tipo de dado inteiro, Ponto flutuante,
+caractere, e booleano.
+
+c) Código em TiposVariaveis.java;
+
+3)
+a) final
+
+b) Pois o modificador static quer dizer que a variável pertence à classe, não ao objeto, isso quer dizer
+que ela pode ser acessada sem necessidade de uma instância, caso ela seja privada, todas as instâncias,
+da classe enxergam a mesma variável e, se uma delas modificar o vlor, isso vai se refletir em todas as ou-
+tras instâncias, assim matendo o valor contante ao longo de todo o programa.
